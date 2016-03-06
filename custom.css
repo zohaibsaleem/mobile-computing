@@ -1,0 +1,77 @@
+body
+{
+	margin-top:60px;
+}
+.animated
+{
+	opacity:0;
+	transition:2s ease;
+	position:absolute;
+	left:80%;
+	bottom:50px;
+}
+.animated1
+{
+
+	left:50px;
+	opacity:1;
+}
+.picture
+{
+	visibility:hidden;
+	
+}
+.hi
+{
+	transition:1s ease;
+}
+.hh
+{
+	
+	transition:1s ease;
+	font-size:20px !important;
+	
+}
+.w3-top
+{
+	    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+/* Back to Top*/
+#back-top {
+    position: fixed;
+    bottom: 20px;
+    margin-left: 90%;
+    padding: 0 !important;
+}
+
+#back-top img {
+    opacity: 0.4;
+}
+
+#back-top img:hover {
+    opacity: 0.8;
+}
+/* End back to top*/
+
+
+@media screen and (max-width: 767px) {
+
+body
+{
+	margin-top:80px;
+}
+
+}
+
+@media screen and (max-width: 600px) {
+
+body
+{
+	margin-top:90px;
+}
+
+}
